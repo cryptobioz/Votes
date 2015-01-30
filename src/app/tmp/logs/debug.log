@@ -1,0 +1,18 @@
+2015-01-03 19:06:26 Notice: Notice (8): Undefined index: email in [/var/www/Elec/app/Controller/UsersController.php, line 8]
+Trace:
+UsersController::new_user() - APP/Controller/UsersController.php, line 8
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+
+2015-01-03 19:06:26 Notice: Notice (8): Undefined index: email in [/var/www/Elec/app/Controller/UsersController.php, line 9]
+Trace:
+UsersController::new_user() - APP/Controller/UsersController.php, line 9
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 165
+[main] - APP/webroot/index.php, line 108
+

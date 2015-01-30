@@ -1,0 +1,231 @@
+.connect-error{
+	text-align: center;
+}
+.main{
+	margin-top: 10vh;
+	font-size: 30px;
+	text-align: center;
+}
+textarea{
+	resize: none;
+	height: 10vh;
+}
+
+.btn-choice{
+	width: 200px;
+}
+
+.row-choice{
+	margin-left: 200px;
+}
+
+.nav_list_votes{
+	margin-top: 5vh;
+	width: 70vw;
+}
+.nav_list_votes ul{
+	list-style-type: none;
+}
+
+.nav_list_votes ul li{
+	border-bottom: 1px solid #bdc3c7;
+	width: 50vw;
+	margin-top: 2vh;
+	padding-bottom: 10px;
+	display: block;
+}
+.nav_list_votes ul li .title{
+	font-size: 25px;
+	color: black;
+}
+.nav_list_votes ul li .description{
+	font-size: 15px;
+}
+.nav_list_votes ul li .author{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2vw;
+}
+
+.nav_list_votes ul li .author img{
+	width: 20px;
+}
+
+.nav_list_votes ul li .date{
+	display: inline-block;
+	vertical-align: top;
+}
+.nav_list_votes ul li .date img{
+	width: 20px;
+}
+
+.show{
+	text-align: center;
+	margin-top: 10vh;
+}
+.show .author{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2vw;
+}
+.show .author img{
+	width: 20px;
+}
+.show .date{
+	display: inline-block;
+	vertical-align: top;
+}
+.show .date img{
+	width: 20px;
+}
+.show .yes{
+	background: rgba(46, 204, 113,1.0);
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2vw;
+}
+.show .no{
+	background:rgba(231, 76, 60,1.0);
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.show .radio{
+	width: 100px;
+}
+
+.show th{
+	text-align: center;
+}
+.show td{
+	text-align: center;
+}
+.logo{
+	height: 50px;
+	padding: 0;
+	margin: 0;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+.choice-poll{
+	text-align: center;
+}
+.choice-poll .title{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.choice-poll .description{
+	font-size: 20px;
+}
+.choice-poll .date{
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.choice-poll .response_type{
+
+}
+.choices{
+	margin-top: 5%;
+	text-align: center;
+}
+.choices .choices-fields .input{
+	width: 60%;
+	text-align: center;
+	display: block;
+	margin : 0 auto;
+	margin-bottom: 20px;
+}
+.choices .choices-fields .checkbox-choice-add{
+	display: inline-block;
+	vertical-align: top;
+}
+.choices .choices-fields .checkbox-choice-remove{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.choices .add-choice{
+	display: inline-block;
+	width: 15%;
+}
+
+.choices .remove-choice{
+	width: 15%;
+	display: inline-block;
+}
+
+
+.poll h1{
+	font-size: 30px;
+	text-align: center;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+.poll .title{
+	width: 60%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.poll .description{
+	width: 60%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.poll .date{
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left: 20%;
+}
+
+.poll .date .day{
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+.poll .date .month{
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+.poll .date .year{
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+.poll .date .infini-choice{
+	display: inline-block;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding-top: 2px;
+}
+.poll .buttons-type-response{
+	text-align: center;
+	padding-top: 5%;
+}
+.poll .buttons-type-response input{
+	display: inline-block;
+	vertical-align: top;
+}
+.poll .submit{
+	margin-top: 5%;
+	text-align: center;
+}
+.poll .submit input{
+	width: 60%;
+}
